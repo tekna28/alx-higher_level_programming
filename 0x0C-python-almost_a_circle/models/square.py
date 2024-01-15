@@ -67,6 +67,7 @@ class Square(Rectangle):
                 elif k == "y":
                     self.y = v
 
+    """ Updating by adding the public method def to_dictionary(self) """
     def to_dictionary(self):
         """dictionary"""
         return {"id": self.id, "size": self.width, "x": self.x, "y": self.y}
