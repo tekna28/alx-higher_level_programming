@@ -94,7 +94,7 @@ class Rectangle(Base):
 {self.__y} - {self.__width}/{self.__height}"
 
     def update(self, *args, **kwargs):
-        """Update the Rectangle.
+        """Updating the Rectangle.
 
         Args:
             *args (ints): New attribute values.
