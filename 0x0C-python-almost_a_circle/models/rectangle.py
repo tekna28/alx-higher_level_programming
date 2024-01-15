@@ -139,6 +139,7 @@ class Rectangle(Base):
                 elif k == "y":
                     self.y = v
 
+    """ Updating by adding the public method def to_dictionary(self) """
     def to_dictionary(self):
         """returns the dictionary"""
         return {"id": self.id, "width": self.__width,
