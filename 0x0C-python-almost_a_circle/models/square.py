@@ -27,7 +27,7 @@ class Square(Rectangle):
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
 
     def update(self, *args, **kwargs):
-        """Update the Square.
+        """Updating the Square.
 
         Args:
             *args (ints): New attribute values.
